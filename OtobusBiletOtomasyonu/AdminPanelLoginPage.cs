@@ -30,8 +30,8 @@ namespace OtobusBiletOtomasyonu
         //Admin panelde hakkında butonuna tıklayınca oluşacak fonksiyon
         private void aboutBttn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bu alana erişebilmek için kullanıcı adı ve şifreye ihtiyacınız var.\n" +
-                "Lütfen program sahibinden kullanıcı adı ve şifre isteyiniz.", "ADMİN PANEL HAKKINDA", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            MessageBox.Show("Admin Paneline Giriş Yapıyorsunuz.\n" 
+                , "ADMİN PANEL HAKKINDA", MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
 
 
